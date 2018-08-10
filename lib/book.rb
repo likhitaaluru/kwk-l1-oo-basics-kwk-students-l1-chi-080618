@@ -1,7 +1,7 @@
 # book.rb
 # Add you Book class here
 class Book 
-  attr.reader :title
+  # attr.reader :title
   def initialize(title)
     @title=title
   end
