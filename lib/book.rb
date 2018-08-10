@@ -35,4 +35,10 @@ class Book
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
+  def author_name
+    puts "This book is written by #{@author}."
 end
+wonder=Book.new("Wonder")
+wonder.author="RJ Palacio"
+wonder.genre="Realistic Fiction"
+wonder.page_count=""
