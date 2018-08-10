@@ -37,9 +37,10 @@ class Book
   end
   def author_name
     puts "This book is written by #{@author}."
+  end
 end
 wonder=Book.new("Wonder")
 wonder.author="RJ Palacio"
-wonder.genre="Realistic Fiction"
-wonder.page_count="316"
+wonder.genre = "Realistic Fiction"
+wonder.page_count= "316"
 
