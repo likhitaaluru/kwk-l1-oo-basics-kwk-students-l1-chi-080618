@@ -41,4 +41,5 @@ end
 wonder=Book.new("Wonder")
 wonder.author="RJ Palacio"
 wonder.genre="Realistic Fiction"
-wonder.page_count=""
+wonder.page_count="316"
+
